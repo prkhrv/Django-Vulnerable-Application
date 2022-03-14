@@ -8,10 +8,12 @@
 </head>
 <body>
 
-    <center><h2>Welcome User {{user.username}}</h2></center>
-    <br>
-    <br>
-    <center><h3>Here is the flag buctf{cs673_s3cur3_s0ftwar3_d3vel0p3m3nt}</h3></center>
+<center>
+    <h2>Welcome User {{user.username}}</h2><br><br>
+    <h3>Here is the flag buctf{cs673_s3cur3_s0ftwar3_d3vel0p3m3nt}</h3><br><br>
+    <a href="{% url 'logout'%}">Logout</a>
+
+</center>
     
 </body>
 </html>
